@@ -1,0 +1,59 @@
+:root {
+    --priamry: #080F30;
+    --secondary: #3684E1;
+}
+
+@font-face {
+  font-family: Sen;
+  src: url("../fonts/sen/OTFs/Sen-Regular.otf");
+}
+
+body {
+    color: var(--priamry) !important;
+    font-family: Sen;
+}
+
+.prjct-btn {
+  justify-content: center;
+  background: var(--priamry);
+  border-radius: 4px;
+
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150.1%;
+  color: #ffffff;
+}
+
+.prjct-btn-outline {
+  justify-content: center;
+  color: var(--priamry);
+  border: 1px solid var(--priamry);
+  border-radius: 4px;
+
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150.1%;
+  background: transparent;
+}
+
+.text-secondary {
+    color: var(--secondary) !important
+}
+
+.text-primary {
+    color: var(--priamry) !important
+}
+
+.bg-primary {
+    background: var(--priamry) !important
+}
+
+@media screen and (min-width: 800px) {
+    .body-container {
+        padding: 0 150px !important;
+    }
+  }
