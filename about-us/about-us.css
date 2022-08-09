@@ -1,0 +1,92 @@
+a.nav-link {
+    font-family: "Sen";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+  
+    /* Theme2 / Primary */
+  
+    color: #080f30;
+  }
+  
+  a.nav-link.active {
+    color: #2771c6 !important;
+  }
+  
+  .hero-image {
+    margin-bottom: 50px;
+  }
+  
+  .breakdown-section {
+    margin: 100px 0;
+    margin-bottom: 70px;
+  }
+  
+  .pss-section {
+    background: #e6eeff;
+    padding: 88px 0;
+  }
+  
+  .info-section {
+    background: #ffffff;
+  }
+  
+  .info-card {
+    box-sizing: border-box;
+  
+    padding: 60px 49px;
+    background: #ffffff;
+  
+    border: 1px solid #cbd7ef;
+    border-radius: 4px;
+  }
+  
+  .info-link {
+    text-decoration: none;
+  }
+  
+  .footer-section {
+    background: #080f30;
+    border-top: 1px solid #cbd7ef;
+  }
+  
+  
+  @media screen and (min-width: 800px) {
+    .hero-section {
+      padding-top: 200px;
+    }
+  
+    .hero-image {
+      position: absolute;
+      top: 120px;
+    }
+  
+    .hero-header-text {
+      font-size: 80px;
+    }
+  
+    .top-section {
+      background: linear-gradient(
+        112.25deg,
+        #f8ffe9 9.57%,
+        #d8ebff 62.83%,
+        #e3f8eb 105.6%
+      );
+    }
+  
+    .our-leadership-section {
+      margin: 200px 0;
+      margin-bottom: 130px;
+    }
+  
+    .pss-section {
+      padding: 150px 0;
+    }
+  
+    .footer-section {
+      background: #ffffff;
+    }
+  
+  }
